@@ -12,5 +12,7 @@ match priority:
         reminder = f"Reminder: '{task}' is a low priority task."
 if priority == "yes":
     reminder += "that requires immediate attention today!"
-else:
+elif priority == "no":
     reminder += " Consider completing it when you have free time."
+
+print(reminder)
