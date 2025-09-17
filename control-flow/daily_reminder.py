@@ -12,7 +12,7 @@ match priority:
     case _:
         reminder = f"'{task}' has an unspecified priority."
 
-if priority == "yes":
+if time_bound == "yes":
     reminder += "That requires immediate attention today!"
 else:
     reminder += " Consider completing it when you have free time."
