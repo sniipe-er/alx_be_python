@@ -37,7 +37,7 @@ class Library:
                 return f"'{title}' has been checked out."
         return f"'{title}' is not available."
     
-    def return_book(self, title):
+    def return_book(self):
         for book in self._book:
             if book.title == title and not book.is_available():
                 if book.return_book():
