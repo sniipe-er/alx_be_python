@@ -20,7 +20,7 @@ class Book:
         return not self.__is_checked_out
     
 class Library:
-    def __init__(self,):
+    def __init__(self):
         self._book = []
 
     def add_book(self, book):
