@@ -45,7 +45,7 @@ class Library:
                 else:
                     return f"'{title}' was not checked out."
     
-    def list_available_books (self):
+    def list_available_books(self):
         available = [book for book in self._books if book.is_available()]
         if not available:
             print("No books are currently available.")
